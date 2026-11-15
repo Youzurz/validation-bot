@@ -1,6 +1,13 @@
 {
   "name": "validation-bot",
-  "version": "0.2.0",
-  "description": "Boîte de décisions de Guillaume : questions réelles des agents, réponse en un clic, écrite dans un dossier partagé.",
-  "types": "./types/index.d.ts"
+  "version": "0.2.1",
+  "description": "Boîte de décisions YOUZURZ : questions réelles des agents, réponse en un clic, écrite dans un dossier partagé. youzurz.com — info@youzurz.com — +33 7 70 48 53 28",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "YOUZURZ",
+    "email": "info@youzurz.com",
+    "url": "https://youzurz.com"
+  },
+  "homepage": "https://youzurz.com",
+  "repository": "https://github.com/Youzurz/validation-bot"
 }

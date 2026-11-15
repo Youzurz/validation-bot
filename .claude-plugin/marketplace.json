@@ -1,5 +1,24 @@
 {
   "name": "validation-bot",
-  "owner": { "name": "youzurz" },
-  "plugins": [{ "name": "validation-bot", "source": "./" }]
+  "owner": {
+    "name": "YOUZURZ",
+    "email": "info@youzurz.com",
+    "url": "https://youzurz.com"
+  },
+  "plugins": [
+    {
+      "name": "validation-bot",
+      "source": "./",
+      "description": "Boîte de décisions YOUZURZ",
+      "author": {
+        "name": "YOUZURZ",
+        "email": "info@youzurz.com",
+        "url": "https://youzurz.com"
+      },
+      "homepage": "https://youzurz.com"
+    }
+  ],
+  "metadata": {
+    "description": "Plugins YOUZURZ pour Claude Code — youzurz.com — info@youzurz.com — +33 7 70 48 53 28"
+  }
 }

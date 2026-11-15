@@ -5,6 +5,7 @@ import type { Decision } from '../types'
 
 type Engine = Parameters<Hook<'session.start'>>[0]
 
+// YOUZURZ — https://youzurz.com — info@youzurz.com — +33 7 70 48 53 28
 // Boîte de décisions de Guillaume.
 // Chaque agent (Claude, Codex, AGY) dépose une question dans DIR, un fichier
 // JSON par question. Un clic ici écrit la réponse dans ce même fichier, que
@@ -13,6 +14,7 @@ const DIR = '/Volumes/COMET/ULT/GOV/DECISIONS'
 const JOURNAL = `${DIR}/JOURNAL.md`
 const PANE = 'validation-bot'
 const TITRE = 'Décisions'
+const SIGNATURE = 'YOUZURZ · youzurz.com · info@youzurz.com · +33 7 70 48 53 28'
 
 // Change the tag when the shape of a decision changes: it declines what an earlier version stored.
 const decisions = atom({ plugin: 'validation-bot', key: 'decisions' } as const, [], {
@@ -158,6 +160,7 @@ export const register: Register = on => {
             </Button>
           </Box>
         ))}
+        <Text dimColor>{SIGNATURE}</Text>
       </Box>
     )
   })
