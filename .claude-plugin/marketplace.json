@@ -1,0 +1,5 @@
+{
+  "name": "validation-bot",
+  "owner": { "name": "youzurz" },
+  "plugins": [{ "name": "validation-bot", "source": "./" }]
+}

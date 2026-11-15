@@ -1,0 +1,6 @@
+{
+  "name": "validation-bot",
+  "version": "0.2.0",
+  "description": "Boîte de décisions de Guillaume : questions réelles des agents, réponse en un clic, écrite dans un dossier partagé.",
+  "types": "./types/index.d.ts"
+}
